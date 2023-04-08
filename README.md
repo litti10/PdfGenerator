@@ -58,3 +58,5 @@ A) You should click **Load File** button to use the template json file.
 
 # Contact
 TODO
+
+Program image: Document by Dimitry S from <a href="https://thenounproject.com/browse/icons/term/document/" target="_blank" title="Document Icons">Noun Project</a>

@@ -1,48 +1,60 @@
 <div align=center>
-	<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Marvin%20Github!&fontSize=90" />	
+	<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Pdf Generator&fontSize=90" />
 </div>
 
-# [1] Header 
+# [1] About this program
 
-![header](https://capsule-render.vercel.app/api?type=egg&color=auto&height=300&section=header&text=Marvin%20Github!&fontSize=90)
+This program is used to generate pdf files based on the user-defined json template.
 
-wave (default)
-egg
-shark
-slice
-rect
-soft
-rounded
-cylinder
-waving
-transparent
+* The program can...
+    * Load json file
+    * Add & Remove image / text
+    * Save modified design
+
+/--
+
+* TODO
+    * Edit image / text
+
+/--
+* Used to create multiple pdf files with a fixed design such as...
+    * Awards
+    * Test Paper
 
 
-# 📚 Tech Stack 📚
+
+# Required Library
+1) reportlab
+```bash
+pip install reportlab
+```
+2) pdf2image
+```bash
+pip install pdf2image
+```
+
+# How to Run program
+1) Using terminal, move to the PdfGenerator directory
+```bash
+cd (directory of PdfGenrator Folder)
+```
+2) Run main.py file
+```bash
+python main.py
+```
+# Errors that may happen
+*Q) The image doesn't show up.*
+
+A) All images you want to load should be saved in the **resource** folder.
+
+Q) I can only see white background after clicking start button.
+
+A) You should click **Load File** button to use the template json file.
+
 # ✨ Platforms & Languages ✨
 
 <img src="https://img.shields.io/badge/Python-002323?style=flat&logo=Python&logoColor=red"/>
 
-<img src="https://img.shields.io/badge/C++-004713?style=flat&logo=C&logoColor=yellow"/>
 
-<img src="https://img.shields.io/badge/Python-007396?style=flat&logo=Conda-Forge&logoColor=white"/>
-
-
-### [2] source code
-```python
-import os
-print('hello')
-```
-
-### [3] bullet point
-* bullet point
-    * abc
-        * 123
-
-
-### [4] link 
-[Google](http://usaco.org/)
-
-### [5] image 
-![gold](/resource/gold.png)
-
+# Contact
+TODO

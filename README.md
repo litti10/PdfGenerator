@@ -1,5 +1,5 @@
 <div align=center>
-	<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Pdf Generator&fontSize=90" />
+	<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Pdf%20Generator&fontSize=90" />
 </div>
 
 # [1] About this program
@@ -47,7 +47,7 @@ python main.py
 
 A) All images you want to load should be saved in the **resource** folder.
 
-Q) I can only see white background after clicking start button.
+*Q) I can only see white background after clicking start button.*
 
 A) You should click **Load File** button to use the template json file.
 
